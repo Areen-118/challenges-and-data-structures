@@ -1,0 +1,11 @@
+
+function reverseArray(arr) {
+  if (!Array.isArray(arr)) {
+    throw new Error("Input must be an array.");
+  }
+  return arr.slice().reverse();
+}
+
+const input = [1, 2, 3, 4, 5];
+console.log("Original:", input);
+console.log("Reversed:", reverseArray(input));
