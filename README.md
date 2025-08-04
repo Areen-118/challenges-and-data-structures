@@ -50,10 +50,10 @@ This project contains solutions to two whiteboard coding challenges using JavaSc
 ## Whiteboard Image
 
 ## Array reversal
-![Array reversal](assets\image.png)
+![Array reversal](assets/image.png)
 
 ## Most Frequant Number
-![Most Frequant Number](assets\image-1.png)
+![Most Frequant Number](assets/image-1.png)
 
 # Challenge 02: Minimum Value
 
@@ -66,7 +66,7 @@ Without using any built-in methods, the function should return the smallest valu
 ## Whiteboard Image
 
 
-![Minimum-Value](assets\image2.png)
+![Minimum-Value](assets/image2.png)
 
 # Challenge 03: Reverse-Characters
 
@@ -79,5 +79,5 @@ Without using any built-in methods, the function return the characters in revers
 ## Whiteboard Image
 
 
-![Reverse-Characters](assets\image3.png)
+![Reverse-Characters](assets/image3.png)
 
