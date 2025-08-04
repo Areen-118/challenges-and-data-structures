@@ -35,3 +35,49 @@ Numbered steps
 
 Headings: ##, ###, etc.
 
+# Whiteboard Challenge 01 
+
+## Challenge Description
+This project contains solutions to two whiteboard coding challenges using JavaScript.
+
+## Features
+
+- ✅ Reverses an array without mutating the original.
+- ✅ Finds the most frequent number in an array.
+- 🧪 Easy to test with Node.js.
+- 📂 Simple file structure for quick understanding.
+
+## Whiteboard Image
+
+## Array reversal
+![Array reversal](assets\image.png)
+
+## Most Frequant Number
+![Most Frequant Number](assets\image-1.png)
+
+# Challenge 02: Minimum Value
+
+## Challenge Description
+
+Write a function called `MinimumValue` that accepts an array of integers.  
+Without using any built-in methods, the function should return the smallest value in the array.
+
+
+## Whiteboard Image
+
+
+![Minimum-Value](assets\image2.png)
+
+# Challenge 03: Reverse-Characters
+
+## Challenge Description
+
+Write a function called `ReversCharaters` that accepts a single string .  
+Without using any built-in methods, the function return the characters in revers order.
+
+
+## Whiteboard Image
+
+
+![Reverse-Characters](assets\image3.png)
+

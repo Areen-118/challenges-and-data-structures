@@ -9,3 +9,4 @@ function ArrayReversal(arr) {
   }
   return reversed;
 }
+console.log("Reversed Array:", ArrayReversal([1, 2, 3, 4, 5])); // Example usage
