@@ -54,6 +54,7 @@ This project contains solutions to two whiteboard coding challenges using JavaSc
 
 ## Most Frequant Number
 ![Most Frequant Number](assets/image-1.png)
+![alt text](assets/image4.png)
 
 # Challenge 02: Minimum Value
 
