@@ -82,3 +82,11 @@ Without using any built-in methods, the function return the characters in revers
 
 ![Reverse-Characters](assets/image3.png)
 
+### Challenge 04: Remove Middle Value
+
+## Challenge Description
+
+Write a function called RemoveMiddleValue that takes in an array as its parameter. Without using any built-in methods  the function should remove the value at the middle index of the array and return a new array.
+
+## Whiteboard Image
+![Remove-Middle-Value](assets/image5.png)
