@@ -82,22 +82,11 @@ Without using any built-in methods, the function return the characters in revers
 
 ![Reverse-Characters](assets/image3.png)
 
-Perfect — here’s a complete, clean, and professional `README.md` tailored to your **Linked List Implementation** project. It includes all the components requested in your assignment: problem domain, visual, edge cases, algorithm, code, Big O, etc.
+### Challenge 04: Remove Middle Value
 
-## 📘 Linked List Implementation
+## Challenge Description
 
+Write a function called RemoveMiddleValue that takes in an array as its parameter. Without using any built-in methods  the function should remove the value at the middle index of the array and return a new array.
 
-
-![Linked List Visual](whiteborad.png)
-![Linked List Visual](whiteborad1.png)
-
-
-
-### 🖥️ Console Output
-
-![Console Output](console-output.png)
-![Console Output](console-output1.png)
-![Console Output](console-output2.png)
-![Console Output](console-output3.png)
-
-
+## Whiteboard Image
+![Remove-Middle-Value](assets/image5.png)
