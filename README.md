@@ -91,18 +91,17 @@ Write a function called RemoveMiddleValue that takes in an array as its paramete
 ## Whiteboard Image
 ![Remove-Middle-Value](assets/image5.png)
 
+
 ## 📘 Linked List Implementation
 
+![Linked List Visual](assets/image-11.png)
+![Linked List Visual](assets/image10.png)
+![alt text](image.png)
 
-
-![Linked List Visual](whiteborad.png)
-![Linked List Visual](whiteborad1.png)
-
-
-
+![alt text](image-1.png)
 ### 🖥️ Console Output
 
-![Console Output](console-output.png)
-![Console Output](console-output1.png)
-![Console Output](console-output2.png)
-![Console Output](console-output3.png)
+![Console Output](assets/image-6.png)
+![Console Output](assets/image-7.png)
+![Console Output](assets/image-8.png)
+![Console Output](assets/image9.png)
