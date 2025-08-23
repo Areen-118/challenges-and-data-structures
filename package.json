@@ -1,0 +1,23 @@
+{
+  "name": "challenges-and-data-structures",
+  "version": "1.0.0",
+  "description": "💻 My Dev Diary",
+  "main": "index.js",
+ 
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Areen-118/challenges-and-data-structures.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Areen-118/challenges-and-data-structures/issues"
+  },
+  "homepage": "https://github.com/Areen-118/challenges-and-data-structures#readme",
+  "devDependencies": {
+    "jest": "^30.0.5"
+  },
+  "scripts": {
+  "test": "jest"
+}}

@@ -82,3 +82,22 @@ Without using any built-in methods, the function return the characters in revers
 
 ![Reverse-Characters](assets/image3.png)
 
+Perfect — here’s a complete, clean, and professional `README.md` tailored to your **Linked List Implementation** project. It includes all the components requested in your assignment: problem domain, visual, edge cases, algorithm, code, Big O, etc.
+
+## 📘 Linked List Implementation
+
+
+
+![Linked List Visual](whiteborad.png)
+![Linked List Visual](whiteborad1.png)
+
+
+
+### 🖥️ Console Output
+
+![Console Output](console-output.png)
+![Console Output](console-output1.png)
+![Console Output](console-output2.png)
+![Console Output](console-output3.png)
+
+
