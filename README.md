@@ -96,9 +96,7 @@ Write a function called RemoveMiddleValue that takes in an array as its paramete
 
 ![Linked List Visual](assets/image-11.png)
 ![Linked List Visual](assets/image10.png)
-![alt text](image.png)
 
-![alt text](image-1.png)
 ### 🖥️ Console Output
 
 ![Console Output](assets/image-6.png)
