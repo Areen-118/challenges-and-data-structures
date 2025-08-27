@@ -33,3 +33,24 @@ list.insertAt(99, 100); // Index out of bounds
 console.log("\n=== Edge Case: Remove from empty list ===");
 const emptyList = new LinkedList();
 emptyList.remove(1); // List is empty
+
+console.log("\n=== Reverse Edge Case: Empty List ===");
+const emptyList1 = new LinkedList();
+emptyList1.reverse();
+emptyList1.display(); // Expected: "list is empty"
+
+console.log("\n=== Reverse Edge Case: Single Node ===");
+const singleNodeList = new LinkedList();
+singleNodeList.add(42);
+singleNodeList.reverse();
+singleNodeList.display(); // Expected: Head --> 42 --> Null
+
+console.log("\n=== Reverse Edge Case: List with Duplicates ===");
+const duplicateList = new LinkedList();
+duplicateList.add(1);
+duplicateList.add(2);
+duplicateList.add(2);
+duplicateList.add(3);
+duplicateList.reverse();
+duplicateList.display(); // Expected: Head --> 3 --> 2 --> 2 --> 1 --> Null
+

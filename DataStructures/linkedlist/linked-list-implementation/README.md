@@ -1,12 +1,6 @@
 ## 📘 Linked List Implementation
-
-
-
 ![Linked List Visual](whiteborad.png)
 ![Linked List Visual](whiteborad1.png)
-
-
-
 ### 🖥️ Console Output
 
 ![Console Output](console-output.png)
