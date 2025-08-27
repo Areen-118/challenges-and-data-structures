@@ -98,6 +98,21 @@ class LinkedList {
     prev.next = newNode;
     newNode.next = current;
   }
+  reverse() {
+  let prev = null;
+  let current = this.head;
+  let next = null;
+
+  while (current) {
+    next = current.next;     // Save next node
+    current.next = prev;     // Reverse pointer
+    prev = current;          // Move prev forward
+    current = next;          // Move current forward
+  }
+
+  this.head = prev;          // Update head to new front
+}
+
 }
 
 module.exports = LinkedList;
