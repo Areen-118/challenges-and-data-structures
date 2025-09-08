@@ -112,6 +112,17 @@ class LinkedList {
 
   this.head = prev;          // Update head to new front
 }
+toString() {
+  let current = this.head;
+  if (!current) return "NULL";
+
+  const parts = [];
+  while (current) {
+    parts.push(`{${current.value}}`);
+    current = current.next;
+  }
+  return parts.join(" -> ") + " -> NULL";
+}
 
 }
 
