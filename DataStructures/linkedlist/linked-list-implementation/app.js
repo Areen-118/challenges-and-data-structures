@@ -1,5 +1,5 @@
 const LinkedList = require("./linkedList");
-
+const mergeSorted = require("./mergeSorted/mergeSorted");
 const list = new LinkedList();
 
 console.log("=== Add Elements ===");
@@ -53,4 +53,30 @@ duplicateList.add(2);
 duplicateList.add(3);
 duplicateList.reverse();
 duplicateList.display(); // Expected: Head --> 3 --> 2 --> 2 --> 1 --> Null
+
+
+
+console.log("\n=== Merge Two Sorted Lists ===");
+
+const list1 = new LinkedList();
+list1.add(1);
+list1.add(3);
+list1.add(5);
+
+const list2 = new LinkedList();
+list2.add(2);
+list2.add(4);
+list2.add(6);
+
+console.log("List 1:");
+list1.display();
+
+console.log("List 2:");
+list2.display();
+
+const merged = mergeSorted(list1, list2);
+
+console.log("Merged List:");
+merged.display(); 
+// Expected: Head --> 1 --> 2 --> 3 --> 4 --> 5 --> 6 --> Null
 

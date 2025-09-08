@@ -93,16 +93,8 @@ Write a function called RemoveMiddleValue that takes in an array as its paramete
 
 
 
-## 📘 Linked List Implementation
 
-![Linked List Visual](assets/image-11.png)
-![Linked List Visual](assets/image10.png)
-
-### 🖥️ Console Output
-
-![Console Output](assets/image-6.png)
-![Console Output](assets/image-7.png)
-![Console Output](assets/image-8.png)
-![Console Output](assets/image9.png)
 [ Linked List implementation Documentation](./DataStructures/linkedlist/linked-list-implementation/README.md)
 [Reverse Linked List Documentation](./DataStructures/linkedlist/linked-list-implementation/Reverse/README.md)
+
+[mergeSorted Linked List Documentation](./DataStructures/linkedlist/linked-list-implementation/mergeSorted/README.md)
