@@ -1,5 +1,6 @@
 const LinkedList = require("./linkedList");
 const mergeSorted = require("./mergeSorted/mergeSorted");
+const RotateLinkedList = require("./RotateLinkedList/rotate");
 const list = new LinkedList();
 
 console.log("=== Add Elements ===");
@@ -80,3 +81,18 @@ console.log("Merged List:");
 merged.display(); 
 // Expected: Head --> 1 --> 2 --> 3 --> 4 --> 5 --> 6 --> Null
 
+
+console.log("\n=== Rotate Linked List ===");
+const rotatelist = new RotateLinkedList();
+[1, 2, 3, 4, 5, 6].forEach(num => rotatelist.add(num));
+
+console.log("Before rotate:");
+rotatelist.display();
+
+rotatelist.rotate(2);   
+console.log("After rotate left by 2:");
+rotatelist.display();
+
+rotatelist.rotate(-1);  
+console.log("After rotate right by 1:");
+rotatelist.display();
