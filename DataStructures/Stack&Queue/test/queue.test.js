@@ -1,4 +1,4 @@
-const Queue = require('../Queue'); // Adjust the path if needed
+const Queue = require('../Stack-and-Queue-Implementation/Queue'); // Adjust the path if needed
 
 describe('Queue', () => {
   let queue;

@@ -104,3 +104,6 @@ Write a function called RemoveMiddleValue that takes in an array as its paramete
 
 # Stack-and-Queue-Implementation
 [Stack-and-Queue-Implementation Documentation](./DataStructures/Stack&Queue/Stack-and-Queue-Implementation/README.md)
+
+# Min-Stack
+[Min-Stack Documentation](./DataStructures/Stack&Queue/minStack/README.md)

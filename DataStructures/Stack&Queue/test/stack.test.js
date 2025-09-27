@@ -1,4 +1,4 @@
-const Stack = require('../Stack'); // Adjust the path if needed
+const Stack = require('../Stack-and-Queue-Implementation/Stack'); // Adjust the path if needed
 
 describe('Stack', () => {
   let stack;
