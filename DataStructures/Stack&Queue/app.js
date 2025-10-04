@@ -1,6 +1,7 @@
 const Stack = require('./Stack-and-Queue-Implementation/Stack');
 const Queue = require('./Stack-and-Queue-Implementation/Queue');
 const MinStack = require('./minStack/minStack');
+const StackWithDeleteMiddle = require('./DeleteMiddleElement/DeleteMiddleElement');
 // === Stack Demo ===
 console.log('--- Stack Demo (LIFO) ---');
 const stack = new Stack();
@@ -57,3 +58,25 @@ console.log(minStack.printStack()); // [2, 12, 7, 15]
 console.log('Min after pushing 2:', minStack.getMin()); // 2
 //check if the stack is empty
 console.log('Is Empty:', minStack.isEmpty());
+
+// === DeleteMiddleElement Demo ===
+console.log('\n--- DeleteMiddleElement Demo ---');
+
+const stack2 = new StackWithDeleteMiddle();
+stack2.push(7);
+stack2.push(14);
+stack2.push(3);
+stack2.push(8);
+stack2.push(5);
+
+console.log('Stack:', stack2.printStack()); // [5,8,3,14,7]
+stack2.deleteMiddle();
+console.log('After deleteMiddle:', stack2.printStack()); // [5,8,14,7]
+
+stack2.push(2);
+stack2.push(9);
+stack2.push(11);
+console.log('Stack:', stack2.printStack()); // [11,9,2,5,8,14,7]
+stack2.deleteMiddle();
+console.log('After deleteMiddle:', stack2.printStack()); // [11,9,2,8,14,7]
+

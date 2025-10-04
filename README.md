@@ -107,3 +107,6 @@ Write a function called RemoveMiddleValue that takes in an array as its paramete
 
 # Min-Stack
 [Min-Stack Documentation](./DataStructures/Stack&Queue/minStack/README.md)
+
+# Delete-Middle-Element
+[Delete-Middle-Element Documentation](./DataStructures/Stack&Queue/DeleteMiddleElement/README.md)

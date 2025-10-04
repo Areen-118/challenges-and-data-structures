@@ -46,6 +46,17 @@ class Stack {
 
     return this.top === null;
   }
+  printStack() {
+  let current = this.top;
+  const result = [];
+
+  while (current) {
+    result.push(current.value);
+    current = current.next;
+  }
+
+  return result;
+}
 }
 
 module.exports = Stack;
