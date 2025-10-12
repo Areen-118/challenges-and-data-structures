@@ -110,3 +110,5 @@ Write a function called RemoveMiddleValue that takes in an array as its paramete
 
 # Delete-Middle-Element
 [Delete-Middle-Element Documentation](./DataStructures/Stack&Queue/DeleteMiddleElement/README.md)
+# Trees Implementation
+[Trees Implementation Documentation](./DataStructures/Trees/README.md)
