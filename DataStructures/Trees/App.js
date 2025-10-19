@@ -1,4 +1,4 @@
-const BinaryTree = require("./BinaryTree");
+const BinaryTree = require("./Treeimplementaion/BinaryTree");
 
 const bTree = new BinaryTree(10);
 
@@ -20,7 +20,7 @@ bTree.postOrder(bTree.root);
 bTree.print();
 
 
-const BinarySearchTree = require("./BinarySearchTree");
+const BinarySearchTree = require("./Treeimplementaion/BinarySearchTree");
 
 const bst = new BinarySearchTree(10);
 
@@ -43,9 +43,21 @@ bst.inOrder(bst.root);
 console.log("\nPostOrder:");
 bst.postOrder(bst.root);
 
-console.log("\nContains 7?", bst.root.contains(7)); // true
-console.log("Contains 20?", bst.root.contains(20)); // false
+console.log("\nContains 7?", bst.contains(7)); // true
+console.log("Contains 20?", bst.contains(20)); // false
 
 console.log("\nRemoving 15...");
 bst.remove(15);
 bst.print();
+
+const SecondMaxValue = require("./SecondMaxValue/SecondMaxValue");
+
+const tree = new SecondMaxValue(10);
+tree.insert(5);
+tree.insert(18);
+tree.insert(3);
+tree.insert(7);
+tree.insert(15);
+
+console.log(tree.print());
+console.log("Second Max Value:", tree.getSecondMax()); // Output: 15
